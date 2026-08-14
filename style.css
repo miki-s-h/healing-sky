@@ -73,7 +73,6 @@ body {
 .footer {
   width: 100%;
   padding: 60px 20px;
-  margin-top: 80px; /* ここを追加 */
   text-align: center;
   background-color: #333;
   color: #f5f5f2;
@@ -91,4 +90,8 @@ body {
 .sky-section.visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+.sky-section:last-of-type {
+  margin-bottom: 100px; /* この数値で間隔を調整 */
 }
