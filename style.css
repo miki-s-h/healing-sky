@@ -92,3 +92,15 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
+
+#footer-text .char {
+  opacity: 0;
+  display: inline-block;
+  animation: fadeInChar 0.5s forwards;
+}
+
+@keyframes fadeInChar {
+  to {
+    opacity: 1;
+  }
+}
