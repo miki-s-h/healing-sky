@@ -104,3 +104,12 @@ body {
     opacity: 1;
   }
 }
+
+/* スマホ画面では高さ固定をやめて、写真の縦横比に任せる */
+@media (max-width: 600px) {
+  .sky-img {
+    height: auto;
+    aspect-ratio: 4 / 3; /* 写真の比率に近い値に調整する */
+    object-fit: cover;
+  }
+}
