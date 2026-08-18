@@ -1,4 +1,4 @@
-# sora note（そら note）
+# sora note（空 note）
 
 空の写真をまとめた、癒しのためのWebサイトです。
 
